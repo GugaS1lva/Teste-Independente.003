@@ -44,7 +44,22 @@ main > article > section > h1{
 }
 
 main > article > section > h1 > button{
+    background-color: transparent;
+    border: no;
     width: 30px;
     height: 30px;
     font-size: 0.5em;
+}
+
+
+
+
+
+form{
+    padding: 15px;
+}
+form > #caixas-duplas{
+    display: flex;
+    flex-direction: row;
+    
 }
